@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+</head>
+<body>
+    <style>
+        table{
+            border: 3px solid blue;
+        }
+        td{
+            border: 3px solid black;
+            padding: 5px;
+        }
+    </style>
+
+    <!-- colspan = Объединяет ячейки по горизонтали  -->
+    <!-- rowspan = Объединяет ячейки вертикали       -->
+    <table >
+            <tr>
+                <td>HTML</td>
+                <td colspan="2">Стартовый</td>
+                <!-- <td>5 дней</td> -->
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Стартовый</td>
+                <td>14 дней</td>
+            </tr>
+            <tr>
+                <td rowspan="2">JavaScript</td>
+                <td>Стартовый</td>
+                <td>10 дней</td>
+            </tr>
+            <tr>
+                <!-- удаленный ряд -->
+                <td>Базовый</td>
+                <td>20 дней</td>
+            </tr>
+    </table>
+
+</body>
+</html>

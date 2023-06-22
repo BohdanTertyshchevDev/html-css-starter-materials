@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-attachment</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            width: 1200px;
+            height: 400px;
+            margin: 0 auto;
+            border: 2px solid red;
+            overflow: auto;
+        }
+
+        .header {
+            height: 200px;
+            background: lightgray;
+            margin-bottom: 50px;
+        }
+
+        .footer {
+            height: 1100px;
+            border: 10px solid lightpink;
+            margin-bottom: 50px;
+        }
+
+        body {
+            background-image: url('img/CSS3.png');
+            background-size: 300px 300px;
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /*
+            Свойство background-attachment задает поведение фонового 
+            изображения при прокрутке страницы. 
+            Значения:
+                - fixed  - фиксирует фоновое изображение 
+                           оставляя его на виду при скролле 
+                           страницы.
+                - scroll - изображение перемещается 
+                           вместе с содержимым, 
+                           видно в паре с overflow.
+                - local  - картинка имеет изначальную позицию 
+                           и при скролле.
+        */
+        .container {
+            background-size: 200px 200px;
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-image: url('img/HTML5.png');
+            background-attachment: scroll;
+        }
+    </style>
+
+    <div class="header">
+        Хедер сайта
+    </div>
+    <!-- .header END -->
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique vel excepturi, voluptates ea, tempora
+            blanditiis reprehenderit, natus molestias exercitationem perspiciatis laboriosam dolore rerum odit. Impedit
+            animi id error deserunt.</p>
+    </div>
+    <!-- .container END -->
+    <div class="footer">
+        Футер наполнение
+    </div>
+    <!-- .footer END -->
+
+
+</body>
+
+</html>

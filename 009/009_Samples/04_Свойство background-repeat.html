@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Повторение фона</title>
+    <style>
+        div {
+            width: 200px;
+            border: 2px solid gray;
+            /* Если высоты нет, изображение не видно! */
+            height: 200px;
+            /* Изображение отображается так же с наличием внутренних
+            отступов элемента! */
+            padding: 30px;
+            background-image: url('img/mini.png');
+			/*------------------------------*/
+            /*
+                Свойство background-repeat определяет, 
+                повторение фонового изображения. 
+                Имеет следующие значения:
+                    - repeat (по умолчанию!) повторение изображения по обеим осям 
+                        (по горизонтали и по вертикали)
+                    - no-repeat - устанавливает одно фоновое изображение без повторений.
+                    - repeat-x - фоновое изображение повторяется по оси Х 
+                        (по горизонтали).
+                    - repeat-y - фоновое изображение повторяется по оси у 
+                        (по вертикали).
+            */
+            background-repeat: no-repeat;
+            /* background-repeat-x: no-repeat; */
+            /* background-repeat-y: no-repeat; */
+        }
+    </style>
+    <!-- https://webref.ru/css/background-repeat -->
+	<!-- https://webref.ru/css/background-image -->
+</head>
+<body>
+    <div>
+        <!-- Содержимое элемента DIV -->
+    </div>
+</body>
+</html>
