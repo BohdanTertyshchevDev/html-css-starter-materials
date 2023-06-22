@@ -1,0 +1,179 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.facebook {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.inst{
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.twit {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.youtube {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: auto auto;
+    padding-top: 7px;
+}
+
+.container-second {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+p {
+    padding: 20px 0 20px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.light-green {
+    background-color: rgb(73, 221, 73);
+    border-left: 5px solid green;
+}
+
+.light-blue {
+    background-color: rgb(109, 109, 214);
+    border-left: 5px solid blue;
+}
+
+.light-yellow {
+    background-color: rgb(245, 245, 62);
+    border-left: 5px solid yellow;
+}
+
+.light-red {
+    background-color: rgb(209, 97, 97);
+    border-left: 5px solid red;
+}
+.container-third p {
+    padding: 20px 0 20px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.container-third {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container-forth {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container-forth p {
+    color: blue;
+    margin: 0;
+}
+
+.menu p {
+    color: black;
+    background-color: rgb(35, 141, 35);
+}
+
+.menu-item {
+    background-color: grey;
+}
+
+.container-fifth {
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+
+.container-fifth td {
+    color: black;
+    padding: 15px 0 15px 15px;
+    font-size: 20px;
+    width: 600px;
+    
+}
+
+table, td, th {
+    border: 1px solid rgb(97, 86, 86);
+}
+
+#table1 {
+    border-collapse: collapse;
+}
+
+
+.container-six {
+    width: 800px;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.lorem {
+    color: black;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.content {
+    padding: 30px;
+}
+
+.button p {
+    margin: 0px;
+    background-color: darkolivegreen;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 8px;
+    
+}
+
+.button {
+    text-decoration: none;
+    
+}
+
+/* .button-text {
+    margin: 0;
+} */
