@@ -1,0 +1,59 @@
+.navbar {
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar__items {
+    display: flex;
+    padding-right: 18px;
+    padding-left: 18px;
+    align-items: center;
+    border-right: 2px solid black;
+}
+
+.text {
+    width: 300px;
+    height: 210px;
+    border: solid 2px black;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: grey;
+    margin-left: 80px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.menu-pic {
+    background-color: yellow;
+    display: flex;
+}
+
+.contsainer {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 15px;
+}
+
+.facebook {
+    background-color: blue;
+}
+
+.youtube {
+    background-color: red;
+}
+
+.inst {
+    background-color: pink;
+}
+
+.twitter {
+    background-color: aqua;
+}
