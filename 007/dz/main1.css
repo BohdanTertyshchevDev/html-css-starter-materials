@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 1700px;
+    background-color: rgb(211, 197, 197);
+}
+
+.section {
+    background-color: grey;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.paragraph {
+    width: 600px;
+}
