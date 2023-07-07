@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: url(./затемненый.png) no-repeat center top / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* height: 500px; */
+    /* border: 2px solid black; */
+}
+
+.header {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+h1 {
+    margin: 0;
+}
+
+.section-one {
+    /* border: 1px solid black; */
+    width: 70vw;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.article {
+    /* border: 1px solid blue; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 50px;
+    background-image: url(./1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain
+
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+.two {
+    background-image: url(./2.png);
+}
+
+.three {
+    background-image: url(./3.png);
+}
+
