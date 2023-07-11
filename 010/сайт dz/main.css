@@ -2,16 +2,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Corbel, Arial, sans-serif;
+    font-family: 'Corbel', Arial, sans-serif;
     font-size: 24px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     width: 70vw;
     margin: 0 auto;
-    /* height: 100vh; */
     color: #14931F;
 }
 
@@ -21,7 +19,6 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
     width: inherit;
-    /* border: 2px solid black; */
 }
 
 main {
@@ -30,8 +27,6 @@ main {
     justify-content: center;
     align-items: center;
     width: inherit;
-    /* height: 3000px; */
-    /* border: 2px solid black; */
 }
 
 .section-one {
@@ -41,7 +36,6 @@ main {
     align-items: center;
     flex-wrap: wrap;
     width: 33vw;
-    /* border: 2px solid blue; */
     text-align: center;
 }
 
@@ -65,8 +59,6 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     width: inherit;
-    border: 2px solid blue;
-    /* height: 300px; */
 }
 
 .inside {
@@ -85,7 +77,6 @@ h1 {
 }
 
 .items {
-    border: 1px solid red;
     width: inherit;
     display: flex;
     flex-direction: row;
@@ -123,7 +114,6 @@ a {
     align-items: center;
     flex-wrap: wrap;
     width: inherit;
-    border: 2px solid red;
     background-color: #DFDBF5;
 }
 
@@ -159,7 +149,6 @@ a {
 }
 
 .text-items {
-    border: 1px solid black;
     width: 220px;
     height: 220px;
 }
@@ -167,7 +156,8 @@ a {
 .text-items p {
     font-size: 18px;
     color: #646F75;
-    background-image: url(./icon1.svg);
+    /* background-image: url(./icon1.svg); */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16' fill='none'%3E%3Cpath d='M10 0C4.48603 0 0 3.54752 0 7.9081C0 12.2687 4.48603 15.8163 10 15.8163C15.514 15.8163 20 12.2687 20 7.9081C20 3.54752 15.5141 0 10 0ZM15.7422 6.57236L9.45969 11.5406C9.19255 11.7519 8.83746 11.8681 8.45972 11.8681C8.08198 11.8681 7.72688 11.7519 7.45975 11.5406L4.25782 9.0085C3.99069 8.79725 3.84356 8.51644 3.84356 8.21771C3.84356 7.91891 3.99069 7.6381 4.25782 7.42685C4.52485 7.2156 4.87995 7.09924 5.25779 7.09924C5.63553 7.09924 5.99073 7.2156 6.25776 7.42693L8.45961 9.16809L13.742 4.9907C14.0092 4.77945 14.3643 4.66318 14.742 4.66318C15.1197 4.66318 15.4748 4.77945 15.742 4.9907C16.2936 5.4269 16.2936 6.13632 15.7422 6.57236Z' fill='%23646F75'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: left top;
     /* background-size: 70% 70%; */
@@ -192,8 +182,7 @@ a {
 
 .price-button {
     width: 235px;
-    border: 1px solid black;
-    height: 50px;
+    height: 65px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -208,6 +197,71 @@ a {
 .price-button p {
     font-size: 48px;
 }
+
+.first-card:nth-child(2) {
+    background-color: #14931F;
+}
+
+.first-card:nth-child(2) .text-items p {
+    color: white;
+}
+
+.first-card:nth-child(2) .price-button p {
+    color: white;
+}
+
+.first-card:nth-child(2) .price-button a {
+    color: #646F75;
+    background-color: white;
+}
+
+.first-card:nth-child(2) h2 {
+    color: white;
+}
+
+.first-card:nth-child(1) .price, a {
+    color: #646F75;
+}
+
+.first-card:nth-child(1)  a {
+    background-color: white;
+    border: 1px solid #646F75;
+}
+.first-card:nth-child(3) .price-button p {
+    color: #646F75;
+}
+
+.first-card:nth-child(3) .price-button a {
+    color: white;
+    background-color: #14931F;
+}
+
+.first-card:nth-child(2) .text-items p {
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16' fill='none'%3E%3Cpath d='M10 0C4.48603 0 0 3.54752 0 7.9081C0 12.2687 4.48603 15.8163 10 15.8163C15.514 15.8163 20 12.2687 20 7.9081C20 3.54752 15.5141 0 10 0ZM15.7422 6.57236L9.45969 11.5406C9.19255 11.7519 8.83746 11.8681 8.45972 11.8681C8.08198 11.8681 7.72688 11.7519 7.45975 11.5406L4.25782 9.0085C3.99069 8.79725 3.84356 8.51644 3.84356 8.21771C3.84356 7.91891 3.99069 7.6381 4.25782 7.42685C4.52485 7.2156 4.87995 7.09924 5.25779 7.09924C5.63553 7.09924 5.99073 7.2156 6.25776 7.42693L8.45961 9.16809L13.742 4.9907C14.0092 4.77945 14.3643 4.66318 14.742 4.66318C15.1197 4.66318 15.4748 4.77945 15.742 4.9907C16.2936 5.4269 16.2936 6.13632 15.7422 6.57236Z' fill='%23646F75'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+footer {
+    width: inherit;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #14931F;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+}
+
+.section-one a {
+    color: white;
+}
+
+
 
 
 
